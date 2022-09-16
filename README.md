@@ -28,7 +28,7 @@ INSTRUCTION:
 1- Save the consensus voting image (c1) and majority voting image (m1) in lines 693-694.
 2- Change the "initial" and "second" variables in lines 716 and 717 accordingly. For example, if you want to calculate accuracy for consensus voting the values of "initial" and "second" should be i100.flatten() and c1.flatten()
 3- Run lines 720-726 to calculate the Euclidean distance. The less this distance is, the more accurate the explanation is.
-You can also run LIME separately (lines 770-779) with a predefined number of superpixels in the input image and top features (num_features parameter) to be seen. The num_samples parameter also needs to be determined in advance by user. Then you can also calculate the LIME explanation with the ground truth. Number of superpixels in the input image should be specified manually in segmentation_fn.
+You can also run LIME separately (lines 770-779) with a predefined number of superpixels in the input image and top features (num_features parameter) to be seen. The num_samples parameter also needs to be determined in advance by user. Then, you can also calculate the accuracy of LIME explanation with the ground truth. Number of superpixels in the input image should be specified manually in segmentation_fn.
 ########## PERFORMANCE GRAPH#############
 1- Run lines 734-743
 ########## SPARSITY PLOTS################
