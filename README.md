@@ -17,7 +17,7 @@ image 8 = 11 = i11.npy,
 INSTRUCTION:
 
 1- Open EGAE.py.
-2- Load the training and test data and all the ground truths images with the saved weights using the the variable explorer panel.
+2- Load the training and test data and all the ground truths images with the prediction model saved weights using the the variable explorer panel.
 3- Run lines 1-86 to train the model with weights and calculation the yhat.
 4- In line 91 specify which image you want to explain using the image number in X1_test. For example, assign variable "Figure" to 100 if you want to test image 1 in Table 3 of the paper.
 5- Run from line 88-595 to let EGAE calculate the results.
