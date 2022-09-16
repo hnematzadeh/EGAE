@@ -1,5 +1,5 @@
 # EGAE
-Automatic explainable artificial intelligence for melanoma using ensemble-based genetic algorithm explainer
+Automation of LIME using ensemble-based genetic algorithm explainer: A case study on melanoma detection dataset
 
 Due to space limitation in github the data needed to run EGAE including the saved weights for the model, training and test sets and their labels (in the numpy.ndarray format), the ground truths delineated by experts for accuracy calculation of 8 sample images in the paper are [here](https://drive.google.com/drive/folders/1341NsT56HIh4DyB6R0ViuxPtDD1AWfdg?usp=sharing).
 
