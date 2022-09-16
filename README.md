@@ -1,7 +1,7 @@
 # EGAE
 Automation of LIME using ensemble-based genetic algorithm explainer: A case study on melanoma detection dataset
 
-Due to space limitation in github the data needed to run EGAE including the saved weights for the model, training and test sets and their labels (in the numpy.ndarray format), the ground truths delineated by experts for accuracy calculation of 8 sample images in the paper are [here](https://drive.google.com/drive/folders/1341NsT56HIh4DyB6R0ViuxPtDD1AWfdg?usp=sharing).
+Due to space limitation in github the data needed to run EGAE including the saved weights for the model, training and test sets and their labels (in the numpy.ndarray format), and the ground truths delineated by experts for accuracy calculation of 8 sample images in the paper are [here](https://drive.google.com/drive/folders/1341NsT56HIh4DyB6R0ViuxPtDD1AWfdg?usp=sharing).
 
 The 8 sample images are selected from 600 images in the X1_test for evaluation. The record number of the selected sample images according to their location in X1_test and appearance in Table 3 of the paper are given based on the following pattern:
 (image number in Table 3 of the paper = image number in the X1_test = the ground truth file). As such,
