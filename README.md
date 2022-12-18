@@ -31,6 +31,7 @@ INSTRUCTION:
 7- Run lines 673-685 to generate majority voting image.
 
 ##########ACCURACY CALCULATION###########
+
 1- Save the consensus voting image (c1) and majority voting image (m1) in lines 693-694.
 
 2- Change the "initial" and "second" variables in lines 716 and 717 accordingly. For example, if you want to calculate accuracy for consensus voting the values of "initial" and "second" should be i100.flatten() and c1.flatten()
