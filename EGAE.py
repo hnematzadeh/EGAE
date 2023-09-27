@@ -461,7 +461,7 @@ for co in range(1,limit):
              
              Xover[k][1].yhat,Xover[k][1].pictu,Xover[k][1].acc, Xover[k][1].fit=perturb_image(image,Xover[k][1].position,superpixels,it)
              Xover[k][1].NuSuperpixels=Xover[k][1].position.sum(0)
-             popc=empty_individual.repeat(nc)
+         popc=empty_individual.repeat(nc)
          i=0
          for s in range (len(Xover)):
              for j in range(2):
